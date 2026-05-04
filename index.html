@@ -3,155 +3,487 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="DevOps portfolio for Abdulrahman Sheikh Alard, focused on AWS, Kubernetes, Terraform, GitOps, observability, and cloud security."
+  />
   <title>Abdulrahman Sheikh Alard | DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;700&amp;display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav>
-      <h2>Abdulrahman Sheikh Alard</h2>
-      <div>
+  <div class="page-glow glow-one" aria-hidden="true"></div>
+  <div class="page-glow glow-two" aria-hidden="true"></div>
+  <div class="page-grid" aria-hidden="true"></div>
+  <div class="cursor-aura" aria-hidden="true"></div>
+
+  <header class="hero" id="top">
+    <nav class="nav" data-float="0.018">
+      <a class="brand" href="#top">
+        <span class="brand-mark">AS</span>
+        <span>Abdulrahman Sheikh Alard</span>
+      </a>
+      <div class="nav-links">
         <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
+        <a href="#toolkit">Toolkit</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
 
-    <section class="hero-content">
-      <h1>DevOps Engineer</h1>
-      <p>
-        Building secure, scalable, cloud-native infrastructure using AWS,
-        Kubernetes, Terraform, GitOps, and modern observability platforms.
-      </p>
-      <div class="buttons">
-        <a href="#contact" class="btn primary">Contact Me</a>
-        <a href="Abdulrahman-CV.pdf" class="btn">Download CV</a>
+    <section class="hero-grid">
+      <div class="hero-copy" data-float="0.03">
+        <p class="eyebrow">Cloud Infrastructure • Kubernetes • Security • Automation</p>
+        <h1>Building resilient platforms that scale cleanly and ship confidently.</h1>
+        <p class="lead">
+          DevOps Engineer focused on AWS, Kubernetes, Terraform, GitOps, and
+          observability. I design production-ready systems that stay secure,
+          visible, and easy for teams to operate.
+        </p>
+
+        <div class="buttons">
+          <a href="#contact" class="btn primary">Let&apos;s Connect</a>
+          <a
+            href="Abdulrahman_Sheikh_Alard_Top_Tier_DevOps_CV.pdf"
+            class="btn secondary"
+            target="_blank"
+            rel="noopener"
+          >
+            View CV
+          </a>
+        </div>
+
+        <ul class="hero-points">
+          <li>AWS platform hardening and security visibility</li>
+          <li>Hybrid autoscaling across HPA, Karpenter, and scheduled scaling</li>
+          <li>GitOps delivery with Helm and ArgoCD</li>
+        </ul>
+
+        <div class="stat-strip">
+          <article class="stat-card" data-float="0.02">
+            <strong>3+</strong>
+            <span>DevOps roles across cloud, security, and platform work</span>
+          </article>
+          <article class="stat-card" data-float="0.024">
+            <strong>20+</strong>
+            <span>Core tools across infrastructure, CI/CD, monitoring, and ops</span>
+          </article>
+          <article class="stat-card" data-float="0.018">
+            <strong>24/7</strong>
+            <span>Mindset for reliability, observability, and operational clarity</span>
+          </article>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-float="0.04">
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit-ring ring-one"></div>
+          <div class="orbit-ring ring-two"></div>
+          <div class="orbit-core"></div>
+          <div class="orbit-node node-one"></div>
+          <div class="orbit-node node-two"></div>
+          <div class="orbit-node node-three"></div>
+          <div class="orbit-node node-four"></div>
+          <div class="orbit-trail trail-one"></div>
+          <div class="orbit-trail trail-two"></div>
+        </div>
+
+        <div class="signal-card" data-float="0.028">
+          <div class="signal-head">
+            <span class="signal-dot"></span>
+            <p>Platform Focus</p>
+          </div>
+          <div class="signal-grid">
+            <article>
+              <span>Cloud</span>
+              <strong>AWS</strong>
+            </article>
+            <article>
+              <span>Orchestration</span>
+              <strong>Kubernetes</strong>
+            </article>
+            <article>
+              <span>Delivery</span>
+              <strong>GitOps</strong>
+            </article>
+            <article>
+              <span>Visibility</span>
+              <strong>DataDog</strong>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-badges">
+          <div class="tech-badge aws" data-float="0.03">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M16 37c8 6 22 8 34 1" />
+              <path d="M20 44c8 4 16 5 25 2" />
+            </svg>
+            <span>AWS</span>
+          </div>
+          <div class="tech-badge kubernetes" data-float="0.038">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <circle cx="32" cy="32" r="18" />
+              <path d="M32 16v32M18 24l28 16M18 40l28-16" />
+            </svg>
+            <span>Kubernetes</span>
+          </div>
+          <div class="tech-badge terraform" data-float="0.026">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <rect x="12" y="14" width="16" height="16" rx="2" />
+              <rect x="30" y="22" width="22" height="14" rx="2" />
+              <rect x="24" y="38" width="16" height="12" rx="2" />
+            </svg>
+            <span>Terraform</span>
+          </div>
+          <div class="tech-badge datadog" data-float="0.034">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M20 40h8V24h8v16h8V28h8" />
+              <path d="M18 46c5-7 11-10 18-10s13 3 18 10" />
+            </svg>
+            <span>DataDog</span>
+          </div>
+        </div>
       </div>
     </section>
+
+    <div class="stack-ribbon" aria-label="Core stack">
+      <span>AWS</span>
+      <span>EKS</span>
+      <span>Terraform</span>
+      <span>Docker</span>
+      <span>Helm</span>
+      <span>ArgoCD</span>
+      <span>Prometheus</span>
+      <span>Grafana</span>
+      <span>CloudTrail</span>
+      <span>Karpenter</span>
+    </div>
   </header>
 
   <main>
-    <section class="section">
-      <h2>About Me</h2>
-      <p>
-        DevOps Engineer with hands-on experience designing, securing, scaling,
-        and operating production-grade cloud infrastructure. Specialized in AWS,
-        Kubernetes, CI/CD, observability, GitOps, automation, and cloud security.
-      </p>
+    <section class="section about">
+      <div class="section-head">
+        <p class="eyebrow">About</p>
+        <h2>Engineering systems that stay fast, visible, and dependable.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy card" data-float="0.012">
+          <p>
+            I work across cloud infrastructure, Kubernetes operations, CI/CD,
+            observability, and security controls. My focus is reducing
+            operational friction while making systems easier to deploy,
+            understand, and trust.
+          </p>
+          <p>
+            Recent work includes GitOps rollouts with Helm and ArgoCD,
+            migration from Instana to DataDog, cloud security analytics on AWS,
+            and hybrid autoscaling strategies across production environments.
+          </p>
+        </div>
+
+        <div class="focus-grid">
+          <article class="mini-card" data-float="0.012">
+            <h3>Security by Design</h3>
+            <p>CloudTrail, AWS Config, Security Hub, layered network controls, and stronger operational visibility.</p>
+          </article>
+          <article class="mini-card" data-float="0.016">
+            <h3>Release Confidence</h3>
+            <p>Helm standardization, GitOps workflows, and clearer environment parity.</p>
+          </article>
+          <article class="mini-card" data-float="0.014">
+            <h3>Operational Visibility</h3>
+            <p>DataDog, Prometheus, Grafana, Loki, and alerting pipelines that stay actionable.</p>
+          </article>
+          <article class="mini-card" data-float="0.018">
+            <h3>Elastic Platforms</h3>
+            <p>HPA, Cluster Autoscaler, Karpenter, and scheduled scaling for cost-aware growth.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
     <section id="experience" class="section">
-      <h2>Experience</h2>
-
-      <div class="card">
-        <h3>DevOps Engineer — EnglishCentral</h3>
-        <span>Jan 2025 – Present | Remote</span>
-        <ul>
-          <li>Migrated AWS WAF Classic to WAFv2 with managed rule groups and full endpoint coverage.</li>
-          <li>Led migration from Instana to DataDog across production and sandbox clusters.</li>
-          <li>Implemented hybrid autoscaling using cron-based scaling, HPA, Cluster Autoscaler, and Karpenter.</li>
-          <li>Led security monitoring using CloudTrail, AWS Config, Security Hub, Athena, and QuickSight.</li>
-          <li>Converted prod, sandbox, and dev services to Helm and integrated them with ArgoCD for GitOps.</li>
-        </ul>
+      <div class="section-head">
+        <p class="eyebrow">Experience</p>
+        <h2>Roles and platform work across cloud, observability, and systems operations.</h2>
       </div>
 
-      <div class="card">
-        <h3>DevOps Engineer — ProResources</h3>
-        <span>May 2024 – Oct 2025 | Damascus</span>
-        <ul>
-          <li>Containerized SIEM solutions using Docker.</li>
-          <li>Implemented centralized monitoring using Prometheus, Grafana, and Loki.</li>
-          <li>Integrated Alertmanager with Telegram and PagerDuty.</li>
-          <li>Automated operational tasks using Ansible.</li>
-        </ul>
-      </div>
+      <div class="timeline">
+        <article class="timeline-item card" data-float="0.012">
+          <div class="timeline-meta">
+            <span class="timeline-date">Jan 2025 - Present</span>
+            <span class="timeline-place">Turkey - Remote</span>
+          </div>
+          <h3>DevOps Engineer • EnglishCentral</h3>
+          <ul>
+            <li>Led migration from Instana to DataDog across production and sandbox clusters.</li>
+            <li>Implemented hybrid autoscaling using HPA, scheduled scaling, Cluster Autoscaler, and Karpenter.</li>
+            <li>Built stronger cloud security monitoring with CloudTrail, AWS Config, Security Hub, Athena, and QuickSight.</li>
+            <li>Converted services to Helm and connected them to ArgoCD-driven GitOps workflows.</li>
+            <li>Managed EKS clusters, CloudFront, Aurora, ElastiCache, Jenkins pipelines, and supporting cloud infrastructure.</li>
+          </ul>
+        </article>
 
-      <div class="card">
-        <h3>DevOps & System Engineer — Boost Company</h3>
-        <span>Jan 2024 – May 2024 | Damascus</span>
-        <ul>
-          <li>Built Docker-based microservice environments.</li>
-          <li>Implemented Nexus Repository for artifacts and Docker images.</li>
-          <li>Managed pfSense, Sophos firewalls, Linux servers, and backup systems.</li>
-        </ul>
+        <article class="timeline-item card" data-float="0.014">
+          <div class="timeline-meta">
+            <span class="timeline-date">May 2024 - Oct 2025</span>
+            <span class="timeline-place">Damascus, Syria</span>
+          </div>
+          <h3>DevOps Engineer • ProResources</h3>
+          <ul>
+            <li>Containerized SIEM solutions and improved consistency with Docker-based environments.</li>
+            <li>Orchestrated security monitoring workloads with Docker Swarm and Kubernetes for stronger service control.</li>
+            <li>Rolled out centralized monitoring using Prometheus, Grafana, and Loki.</li>
+            <li>Integrated Alertmanager with Telegram and PagerDuty for faster incident response.</li>
+            <li>Automated recurring operations using Ansible.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item card" data-float="0.012">
+          <div class="timeline-meta">
+            <span class="timeline-date">Jan 2024 - May 2024</span>
+            <span class="timeline-place">Damascus, Syria</span>
+          </div>
+          <h3>DevOps &amp; System Engineer • Boost Company</h3>
+          <ul>
+            <li>Built Docker-based microservice environments for development and operations.</li>
+            <li>Designed a Docker Compose cluster with cAdvisor, Prometheus, and Grafana for service and infrastructure monitoring.</li>
+            <li>Implemented Nexus Repository for artifact and container image management.</li>
+            <li>Managed Linux systems, backups, and network/security appliances including pfSense and Sophos.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item card" data-float="0.015">
+          <div class="timeline-meta">
+            <span class="timeline-date">Oct 2022 - Dec 2023</span>
+            <span class="timeline-place">Damascus, Syria</span>
+          </div>
+          <h3>Telecom System Administrator Engineer • MTN Syria</h3>
+          <ul>
+            <li>Administered telecom systems on Red Hat Linux, Solaris, and CentOS in a 24/7 production environment.</li>
+            <li>Performed daily hardware checks using iBMC, iLO, and iDRAC while monitoring service, license, and database health.</li>
+            <li>Handled service, fault, account, performance, and privilege management operations across operational systems.</li>
+            <li>Resolved production faults through log analysis, vendor documentation, runbooks, and disciplined operational follow-up.</li>
+            <li>Developed scripts for housekeeping, backup, routine task automation, and data editing workflows.</li>
+          </ul>
+        </article>
       </div>
     </section>
 
-    <section id="skills" class="section">
-      <h2>Technical Skills</h2>
-      <div class="skills">
-        <span>AWS</span>
-        <span>Kubernetes</span>
-        <span>EKS</span>
-        <span>Docker</span>
-        <span>Terraform</span>
-        <span>Helm</span>
-        <span>ArgoCD</span>
-        <span>Jenkins</span>
-        <span>DataDog</span>
-        <span>Prometheus</span>
-        <span>Grafana</span>
-        <span>Loki</span>
-        <span>Ansible</span>
-        <span>Bash</span>
-        <span>Karpenter</span>
-        <span>CloudTrail</span>
+    <section id="toolkit" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Toolkit</p>
+        <h2>Core technologies with a visual stack that feels alive.</h2>
+      </div>
+
+      <div class="logo-grid">
+        <article class="logo-card" data-float="0.014">
+          <div class="logo-mark aws">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M16 37c8 6 22 8 34 1" />
+              <path d="M20 44c8 4 16 5 25 2" />
+            </svg>
+          </div>
+          <h3>AWS</h3>
+          <p>Secure cloud foundations, Config, CloudTrail, Athena, QuickSight, and mature operational guardrails.</p>
+        </article>
+
+        <article class="logo-card" data-float="0.018">
+          <div class="logo-mark kubernetes">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <circle cx="32" cy="32" r="18" />
+              <path d="M32 16v32M18 24l28 16M18 40l28-16" />
+            </svg>
+          </div>
+          <h3>Kubernetes</h3>
+          <p>Cluster operations, autoscaling strategies, workload resilience, and EKS delivery.</p>
+        </article>
+
+        <article class="logo-card" data-float="0.013">
+          <div class="logo-mark terraform">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <rect x="12" y="14" width="16" height="16" rx="2" />
+              <rect x="30" y="22" width="22" height="14" rx="2" />
+              <rect x="24" y="38" width="16" height="12" rx="2" />
+            </svg>
+          </div>
+          <h3>Terraform</h3>
+          <p>Infrastructure as code for repeatable environments and cleaner change management.</p>
+        </article>
+
+        <article class="logo-card" data-float="0.016">
+          <div class="logo-mark docker">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <rect x="12" y="28" width="10" height="8" rx="1" />
+              <rect x="24" y="28" width="10" height="8" rx="1" />
+              <rect x="36" y="28" width="10" height="8" rx="1" />
+              <rect x="24" y="18" width="10" height="8" rx="1" />
+              <path d="M12 40h32c5 0 8-2 10-6-3-1-5-1-7 0-1-4-3-6-7-8" />
+            </svg>
+          </div>
+          <h3>Docker</h3>
+          <p>Containerized services, repeatable local workflows, and platform packaging.</p>
+        </article>
+
+        <article class="logo-card" data-float="0.02">
+          <div class="logo-mark argocd">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M32 10 18 18v16c0 10 6 17 14 20 8-3 14-10 14-20V18Z" />
+              <path d="M25 33c2-5 5-8 10-10-1 4-1 8 0 12-4 2-7 2-10-2Z" />
+            </svg>
+          </div>
+          <h3>ArgoCD</h3>
+          <p>GitOps rollouts, release consistency, and easier environment synchronization.</p>
+        </article>
+
+        <article class="logo-card" data-float="0.015">
+          <div class="logo-mark observability">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M10 42h8l5-16 8 24 8-18 5 10h10" />
+            </svg>
+          </div>
+          <h3>Observability</h3>
+          <p>DataDog, Prometheus, Grafana, Loki, and alerting tuned for real operations.</p>
+        </article>
+      </div>
+
+      <div class="skills-cloud">
         <span>AWS Config</span>
         <span>Security Hub</span>
+        <span>CloudTrail</span>
         <span>Athena</span>
         <span>QuickSight</span>
+        <span>Helm</span>
+        <span>Jenkins</span>
+        <span>Ansible</span>
+        <span>Bash</span>
+        <span>Loki</span>
+        <span>Prometheus</span>
+        <span>Grafana</span>
+        <span>Docker Swarm</span>
+        <span>Solaris</span>
+        <span>CentOS</span>
       </div>
     </section>
 
     <section id="projects" class="section">
-      <h2>Highlighted Projects</h2>
+      <div class="section-head">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected initiatives that improved reliability, security, and delivery maturity.</h2>
+      </div>
 
-      <div class="grid">
-        <div class="card">
-          <h3>GitOps Migration</h3>
+      <div class="project-grid">
+        <article class="project-card card" data-float="0.015">
+          <p class="project-tag">Observability</p>
+          <h3>Observability Modernization</h3>
           <p>
-            Converted multiple environments to Helm-based deployments and
-            integrated them with ArgoCD to improve deployment consistency.
+            Led the migration from Instana to DataDog across production and
+            sandbox Kubernetes clusters, covering evaluation, rollout planning,
+            configuration, and production adoption.
           </p>
-        </div>
+        </article>
 
-        <div class="card">
-          <h3>DataDog Migration</h3>
+        <article class="project-card card" data-float="0.02">
+          <p class="project-tag">GitOps</p>
+          <h3>Helm + ArgoCD Transformation</h3>
           <p>
-            Led full migration from Instana to DataDog, including cost analysis,
-            configuration, support coordination, and Jira project management.
+            Standardized services across production, sandbox, and development
+            with Helm and ArgoCD to improve traceability, consistency, and
+            rollback control.
           </p>
-        </div>
+        </article>
 
-        <div class="card">
-          <h3>AWS Security Monitoring</h3>
+        <article class="project-card card" data-float="0.014">
+          <p class="project-tag">Scalability</p>
+          <h3>Kubernetes Scaling Modernization</h3>
           <p>
-            Built centralized security monitoring using CloudTrail, AWS Config,
-            Security Hub, Athena, and QuickSight.
+            Implemented scheduled and reactive Kubernetes scaling, then moved
+            worker scaling toward Karpenter for better elasticity and capacity
+            efficiency.
           </p>
-        </div>
+        </article>
 
-        <div class="card">
-          <h3>Kubernetes Autoscaling</h3>
+        <article class="project-card card" data-float="0.018">
+          <p class="project-tag">Monitoring</p>
+          <h3>Internal Monitoring Platform</h3>
           <p>
-            Implemented hybrid scaling with HPA, scheduled scaling, Cluster
-            Autoscaler, and Karpenter.
+            Built centralized monitoring with Prometheus, Grafana, Loki, and
+            alerting integrations to improve visibility into system health,
+            logs, and operational response.
           </p>
-        </div>
+        </article>
+
+        <article class="project-card card" data-float="0.016">
+          <p class="project-tag">Security</p>
+          <h3>L7 Firewall Protection</h3>
+          <p>
+            Deployed and managed a full Layer 7 firewall solution to help
+            protect organization services from both internal and external
+            attack paths.
+          </p>
+        </article>
+
+        <article class="project-card card" data-float="0.019">
+          <p class="project-tag">Cloud Migration</p>
+          <h3>Huawei Cloud SIEM to AWS</h3>
+          <p>
+            Migrated a full SIEM application from Huawei Cloud to AWS with a
+            focus on continuity, cleaner operations, and long-term platform
+            flexibility.
+          </p>
+        </article>
       </div>
     </section>
 
-    <section id="contact" class="section contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:abdalrhmnsheikhelared@gmail.com">abdalrhmnsheikhelared@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/abdulrahman-sheikh-alard-6a7b0b215" target="_blank">LinkedIn Profile</a></p>
-      <p>GitHub: <a href="https://github.com/abdalrahmansheikh" target="_blank">GitHub Profile</a></p>
+    <section id="contact" class="section">
+      <div class="contact-shell" data-float="0.018">
+        <div class="section-head contact-head">
+          <p class="eyebrow">Contact</p>
+          <h2>Open to platform, cloud, and DevOps conversations.</h2>
+          <p class="lead compact">
+            If you want someone who cares about reliability, clean delivery, and
+            practical infrastructure, let&apos;s talk.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:abdalrhmnsheikhelared@gmail.com">
+            <span>Email</span>
+            <strong>abdalrhmnsheikhelared@gmail.com</strong>
+          </a>
+          <a
+            class="contact-card"
+            href="https://www.linkedin.com/in/abdulrahman-sheikh-alard-6a7b0b215"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>LinkedIn</span>
+            <strong>abdulrahman-sheikh-alard</strong>
+          </a>
+          <a
+            class="contact-card"
+            href="https://github.com/abdalrahmansheikh"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>GitHub</span>
+            <strong>github.com/abdalrahmansheikh</strong>
+          </a>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 Abdulrahman Sheikh Alard. Built with HTML, CSS, and GitHub Pages.</p>
+  <footer class="footer">
+    <p>© 2026 Abdulrahman Sheikh Alard • Built with HTML, CSS, and GitHub Pages.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
